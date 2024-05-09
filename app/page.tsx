@@ -103,6 +103,7 @@ export default function Home() {
                                 <a
                                   href={link}
                                   key={link}
+                                  target="_blank"
                                   className="block w-fit px-2 py-1 text-sm  text-violet-700 bg-violet-100 rounded"
                                 >
                                   {formatPageName(link)}
